@@ -1,0 +1,6 @@
+interface:
+  display_name: "小红书原创带货笔记复刻器"
+  short_description: "把对标内容DNA迁移到自己的商品，生成三套不同原创方案与离线报告"
+  default_prompt: "使用 $xiaohongshu-viral-commerce-note-replicator，结合我提供的对标和商品做三套原创方案。"
+policy:
+  allow_implicit_invocation: true

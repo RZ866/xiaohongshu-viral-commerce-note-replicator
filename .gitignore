@@ -1,0 +1,15 @@
+.qa/
+.git/
+dist/
+outputs/
+private-inputs/
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.env
+.env.*
+*.key
+*credentials*
+*cookies*
+*secrets*
