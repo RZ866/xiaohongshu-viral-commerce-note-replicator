@@ -19,12 +19,15 @@
 | HTML安全 | PASS | script/属性/标签/引号/Emoji转义，浏览器恶意内容不执行 |
 | 官方安装器兼容 | PASS | 使用真实安装器，本地ZIP替换HTTP响应，检查URL根路径/解压复制/重名保护，安装后实际运行生成器输出ABC报告 |
 | 发布审计 | PASS | 允许清单、敏感模式扫描无命中，公开图片为原创合成素材 |
-| 新仓库真实在线安装 | NOT RUN | 本轮未创建新远端仓库 |
+| 新仓库真实在线安装 | PASS | 官方安装器从公开仓库真实下载到隔离目录，安装后61项测试及六类示例通过 |
 | WorkBuddy/手机硬件 | NOT RUN | 模拟视口不等于手机硬件，未验收其他宿主 |
-| GitHub Actions云端 | NOT RUN | 工作流已提供，但新仓库尚未发布 |
+| GitHub Actions云端 | PASS | Windows/Ubuntu × Python3.10/3.12，四组全部通过 |
 
 已执行测试无未解决FAIL。语义复核不会因自动测试通过而省略；反洗稿不是法律判定，低相似度不等于无结构模仿。`fact_uses`不能证明所有无数字功能宣称真实，仍需宿主核对事实支持关系。
 
 本轮修正：数字或风险短语不能仅凭任意字段绑定通过，需在对应商品事实文本中出现；首页导航改为实际路线名称；来源显示四类中文标签与未独立核验提示。
 
 复现说明见[测试设计](../tests/test-cases.md)。临时安装、浏览器截图/PDF、独立测试与开发依赖均在忽略目录，未加入发布包。
+
+发布验证（2026-10-04）：[仓库](https://github.com/RZ866/xiaohongshu-viral-commerce-note-replicator) · [四组云端测试](https://github.com/RZ866/xiaohongshu-viral-commerce-note-replicator/actions/runs/37193816680)。
+

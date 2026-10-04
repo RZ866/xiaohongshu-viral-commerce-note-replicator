@@ -16,3 +16,6 @@
 本机可读取用户上传附件的本地路径、原生查看图片、生成本地可链接HTML。本项目不把本机绝对路径写入公开文件；对其他宿主需以其实际工具能力为准。WorkBuddy与手机硬件未实机验收。
 
 官方参考入口：[Build skills](https://developers.openai.com/plugins/build/skills)。本次实现判断以实际读取的本机官方规范和运行结果为依据，不冒称已查询未读取的新版本网页。
+
+## 发布补充（2026-10-04）
+用户授权后已创建独立公开仓库 RZ866/xiaohongshu-viral-commerce-note-replicator。官方安装器真实网络下载、安装后61项测试及六类报告生成通过；GitHub Actions四组跨平台检查通过。上文未发布描述是开发阶段记录；未进行全局安装，WorkBuddy仍未实机验收。

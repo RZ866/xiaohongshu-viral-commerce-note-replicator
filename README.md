@@ -38,11 +38,11 @@
 
 在Codex里说：
 
-> 帮我安装这个Skill：https://github.com/RZ866/xiaohongshu-viral-commerce-note-replicator。SKILL.md在仓库根目录，请安装整个目录，名称为xiaohongshu-viral-commerce-note-replicator。
+> 帮我安装这个Skill：https://github.com/RZ866/xiaohongshu-viral-commerce-note-replicator 。SKILL.md在仓库根目录，请安装整个目录，名称为xiaohongshu-viral-commerce-note-replicator。
 
 不要只复制SKILL.md。已有同名目录时官方安装器会拒绝覆盖，由宿主检查后处理更新。安装成功后下一轮可用。也可以把发布ZIP交给支持本地Skill导入的宿主，要求安装完整文件夹。
 
-真实检查了本机安装器，并对本项目ZIP运行离线安装兼容测试。在线安装验证结果见验收记录；WorkBuddy尚未实机验收。 其他工具须具备Skill导入、看图及文件生成能力，以其实际安装入口为准。
+真实检查了本机安装器，并对本项目ZIP运行离线安装兼容测试。2026-10-04 已通过官方安装器从本仓库真实下载安装，安装后61项测试和六类报告生成通过；WorkBuddy尚未实机验收。 其他工具须具备Skill导入、看图及文件生成能力，以其实际安装入口为准。
 
 ## 使用示例
 
@@ -105,4 +105,5 @@ V1.1优先增加用户修改意见与真实发布反馈驱动的单方案迭代�
 ## License
 
 [MIT](LICENSE)，版本见[CHANGELOG](CHANGELOG.md)。代码、演示文案和合成图原创；未打包第三方笔记作品。宿主与开发工具各遵守自己的许可证。
+
 
